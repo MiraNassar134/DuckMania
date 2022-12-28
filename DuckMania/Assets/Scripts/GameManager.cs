@@ -46,10 +46,10 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < this.ghosts.Length; i++)
         {
-            this.ghosts[i].gameObject.SetActive(true);
+            this.ghosts[i].ResetState();
         }
 
-        this.duck.gameObject.SetActive(true);
+        this.duck.ResetState();
     }
 
     private void GameOver()

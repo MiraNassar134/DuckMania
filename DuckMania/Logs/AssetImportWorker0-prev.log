@@ -15,7 +15,7 @@ E:/Desktop/Mazen/Education/Mazen Mostafa - College/Repos/DuckMania/DuckMania
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63335
+63503
 Successfully changed project path to: E:/Desktop/Mazen/Education/Mazen Mostafa - College/Repos/DuckMania/DuckMania
 E:/Desktop/Mazen/Education/Mazen Mostafa - College/Repos/DuckMania/DuckMania
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/Desktop/Mazen/Education/Mazen Mostafa - College/Repos/DuckMania/DuckMania
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21996] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 4286779144 [EditorId] 4286779144 [Version] 1048832 [Id] WindowsEditor(7,MazenGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11416] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3596043716 [EditorId] 3596043716 [Version] 1048832 [Id] WindowsEditor(7,MazenGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21996] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 4286779144 [EditorId] 4286779144 [Version] 1048832 [Id] WindowsEditor(7,MazenGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11416] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3596043716 [EditorId] 3596043716 [Version] 1048832 [Id] WindowsEditor(7,MazenGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 86.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 90.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,51 +67,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006216 seconds.
+Registered in 0.004867 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 91.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.563 seconds
+- Completed reload, in  0.583 seconds
 Domain Reload Profiling:
-	ReloadAssembly (564ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (584ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (406ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (427ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (101ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
+				RefreshPlugins (91ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004654 seconds.
+Registered in 0.004099 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -119,46 +119,46 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 92.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
+- Completed reload, in  1.913 seconds
 Domain Reload Profiling:
-	ReloadAssembly (988ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (1914ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1698ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
+			SetupTypeCache (230ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (427ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (473ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (229.0 KB). Loaded Objects now: 4503.
-Memory consumption went from 152.2 MB to 151.9 MB.
-Total: 3.312600 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.125600 ms MarkObjects: 2.672600 ms  DeleteObjects: 0.150100 ms)
+Unloading 44 unused Assets / (229.3 KB). Loaded Objects now: 4504.
+Memory consumption went from 152.3 MB to 152.1 MB.
+Total: 3.804500 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.120800 ms MarkObjects: 3.179800 ms  DeleteObjects: 0.151800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,325 +172,252 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6464.475498 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6836fd93f4314b6bd44177df715217') in 0.031372 seconds 
+  Time since last request: 7579.194644 seconds.
+  path: Assets/Prefabs/Ghost_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e055fbc495c961b80ea23bd876bc641b') in 0.099184 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 249.264508 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10afa57085982fda14a7e1a503463574') in 0.070961 seconds 
+  Time since last request: 11.375587 seconds.
+  path: Assets/Prefabs/Ghost_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a974b2ba6fbb81ef307fc58f40e01a') in 0.015609 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.867598 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d01d1d9dd09cd5870309a821ae6fb2e') in 0.006543 seconds 
+  Time since last request: 49.079974 seconds.
+  path: Assets/Prefabs/Ghost_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074957244a6b3c8a972147b66626f590') in 0.009891 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.324088 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a141a22925c8d030a49b5412506428') in 0.003279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.595045 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8a82d18a77bacaa87e3a0b8b0f7250') in 0.002716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.846311 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072747a1e2cf5fb3ac5c7de32600955e') in 0.002735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.455307 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434e07c730be79b02626f7fdb59dc0a4') in 0.002798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.542502 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04efed4403d0e12a5920c0cc232cce52') in 0.013177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.841064 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73d56f8681dc50a3cc1bd4a80ddf49c') in 0.026761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.826946 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e8c29747dd471c8365307bac97b0dd') in 0.014965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.602846 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef55690c1bd0f68fa4024ad41bf3194') in 0.007238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.072697 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3347375ac712792bde534d7176c01ecc') in 0.011924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.188401 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6d8e406f8959517a2e1f586fdd129e') in 0.011356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.990248 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffcd336e3dab9ad1fb63f84b83dc418') in 0.006747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.412104 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb76779de468dfdaf644c744271b6a66') in 0.008960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.141290 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c330a10a86e81a626a08aa3141f8aaaf') in 0.012512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.626453 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715e8534c162985f32893857f2642288') in 0.804707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.251827 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ed54b6946f627cc988ed975c18958f') in 0.007392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.729483 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7263b9f036f5a98409670efd6933c7c') in 0.007345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.027754 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc10dae36d64e15ecdf069477671099') in 0.009565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.100409 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232e86f9f63dac61768457fcda6e2c9e') in 0.009740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.313431 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0838e9de4c942012107af40c7925575') in 0.010891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.194605 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd2b30d61ea2d51414b5e4f0039b0af') in 0.011407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.059069 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c59c59b53d21a0b517c6f9469be732a') in 0.011571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.952536 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f239528f561c5f15e4a0d7042c7549d5') in 0.006679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.557036 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74600cbcd26b81225ad9a0cad5587a0') in 0.017648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.228190 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba1a3e993ca9cd4a178474f950a249c') in 0.007762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.173917 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a4ef53d4591177279d998dc7278092') in 0.007791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.829491 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd7baf2c1b7d21b68acb42c131d4c60') in 0.006983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.124103 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef773decc9868fc993f8d401a0cbd88') in 0.303757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.637313 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3e53765b75c9389838cce5b0598cf9') in 0.010069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.605499 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded7d748d5a91c949747a2924ef49bb9') in 0.008181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.996795 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f664e9caafc84f90cf258857abf1e316') in 0.010758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.243578 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb0aca16c71eb744ca1241f6f17f379') in 0.007355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.057491 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfbef9fe4d54b9f1a6c4aa2e026655a') in 0.010253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.234191 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb09de58c69254ee8f47ef441280cc3') in 0.181581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.371414 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2340cedcdf9a6dd0d56e9aa4be006dd8') in 0.013043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.230627 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e9a019e5790afc35cd8918a78f2efc') in 0.007339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.076152 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f39a8d6d1cab17a00a21490e5f06e88') in 0.007770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.626441 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db231ae18db9ef88b372e67afa1e1ee4') in 0.030609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.181648 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f517533d5818ae9c7bd1147cf045aea8') in 0.014851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.645110 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e3b60305cc2b12f37cd661873ff6a4') in 0.009861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.121289 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9a0e7cfb53c71e09af54d6959ea2ed') in 0.011352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.836241 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5957fef255a6325945df11957b158f') in 1.065066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.312869 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5820dbe33932bf9ccfa69ca0b92c1aa2') in 0.007018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.402692 seconds.
-  path: Assets/Prefabs/Ghost_Base.prefab
-  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa843e81fc9357ff130ec8c3452db2d6') in 0.010650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 112.099652 seconds.
+  Time since last request: 55.410542 seconds.
   path: Assets/Prefabs/Ghost_Base Variant.prefab
-  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base Variant.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2e2d8f2e7cd480fc6a83d1f7df31df') in 0.012852 seconds 
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Base Variant.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6017c2293b0f2df4686aaa8790406171') in 0.015311 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.221052 seconds.
-  path: Assets/Prefabs/Ghost_Blinky.prefab
-  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90eb3d2964e23a0eb7836d06aefd68c9') in 0.650312 seconds 
+  Time since last request: 18.208979 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5466d8144c130ae7223b3f851733a4ec') in 0.019984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.571320 seconds.
+  Time since last request: 12.392194 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005397463084cb9686418c19383bb0af') in 0.016504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.431526 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601303d2c07b11ea6c867962772d48a5') in 0.018869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.190985 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95da5904aa5ca71e9c754cec8936a20b') in 0.022901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.808754 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4005f78b9c2a3f3d10b26cb9691558b9') in 0.010642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.671237 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bad391cc404993c0332d940f758fb4') in 0.009943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.684273 seconds.
+  path: Assets/Prefabs/Ghost_Base.prefab
+  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89249ce2f795acd51af9caa3cf2cd1c7') in 0.011611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd316aeb9f4d80da3e52f6814c5bd99b') in 0.012441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.460059 seconds.
   path: Assets/Prefabs/Ghost_Base Variant.prefab
-  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Base Variant.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf6b80bfda63fa2bccc72189fede715') in 0.012688 seconds 
+  artifactKey: Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Base Variant.prefab using Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a01f81a536dffb285319f1e22a11590') in 0.009721 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.956004 seconds.
-  path: Assets/Prefabs/Ghost_Blinky.prefab
-  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d3b669e0a4180fda021fd9dc41972c') in 0.009869 seconds 
+  Time since last request: 14.061028 seconds.
+  path: Assets/Prefabs/Ghost_Pinky.prefab
+  artifactKey: Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Pinky.prefab using Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f7b991ef7f8cbdc6037d65fd4eb65f') in 0.018043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.554570 seconds.
-  path: Assets/Prefabs/Ghost_Blinky.prefab
-  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c49dcf5addcff707b09a03f256fbcab') in 0.017803 seconds 
+  Time since last request: 18.335834 seconds.
+  path: Assets/Prefabs/Ghost_Pinky.prefab
+  artifactKey: Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Pinky.prefab using Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3337b2366d2d6e354b0aec85370e15') in 0.008343 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.647065 seconds.
-  path: Assets/Prefabs/Ghost_Blinky.prefab
-  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48508c1333c31515c97b921c3fcacb06') in 0.225667 seconds 
+  Time since last request: 11.225477 seconds.
+  path: Assets/Prefabs/Ghost_Pinky.prefab
+  artifactKey: Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Pinky.prefab using Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9285d7f5658220453ca54861c06113') in 0.018674 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.117819 seconds.
-  path: Assets/Prefabs/Ghost_Blinky.prefab
-  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c17717ff9a0e6c6150293295fb3083') in 0.008567 seconds 
+  Time since last request: 25.530743 seconds.
+  path: Assets/Prefabs/Ghost_Pinky.prefab
+  artifactKey: Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Pinky.prefab using Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f0601fcf8067e48f95615bbd6721ea') in 0.016404 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.572588 seconds.
+  Time since last request: 3.010199 seconds.
+  path: Assets/Prefabs/Ghost_Pinky.prefab
+  artifactKey: Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Pinky.prefab using Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adf9ae99c910f544d2718470dce3f55') in 0.009660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.442745 seconds.
+  path: Assets/Prefabs/Ghost_Pinky.prefab
+  artifactKey: Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Pinky.prefab using Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5407d6e16dd57496faaa6d67add0a805') in 0.010229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.154954 seconds.
+  path: Assets/Prefabs/Ghost_Pinky.prefab
+  artifactKey: Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Pinky.prefab using Guid(3196c27731b294744af65e6e73fc2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341632c194972e0aaaa1be38643cfe26') in 0.010812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.754330 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2f8debebcf2ef3b86fc2486798f118') in 0.015235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.758734 seconds.
+  path: Assets/Prefabs/Ghost_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c82c4037bd160bab273ab44f3e45c10') in 0.009494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.312677 seconds.
   path: Assets/Prefabs/Ghost_Blinky.prefab
   artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61873b57181d0acca8da336afbe9183a') in 0.015672 seconds 
+Start importing Assets/Prefabs/Ghost_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d923a3e8fe5d3ddb28e9ecff8552f8b') in 0.008058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.665385 seconds.
+  path: Assets/Prefabs/Ghost_Base Variant.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Base Variant.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365cdeb89e6ef0b5f21f3cc0790ad3b4') in 0.010614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.484924 seconds.
+  path: Assets/Prefabs/Ghost_Clyde.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Clyde.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd984ecd132422289b805928c70a8c0b5') in 0.012060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.235007 seconds.
+  path: Assets/Prefabs/Ghost_Clyde.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Clyde.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299768bdbc936bcb2a2fe3edcc8c321a') in 0.483718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.573315 seconds.
+  path: Assets/Prefabs/Ghost_Clyde.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Clyde.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb31c4df72fc4164765c06e6bb738429') in 0.012299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.048227 seconds.
+  path: Assets/Prefabs/Ghost_Clyde.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Clyde.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e7f0e1dc813309f43dcd236d794fbd') in 0.009791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.401542 seconds.
+  path: Assets/Prefabs/Ghost_Clyde.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Clyde.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c1c1c4b52205a99ab328a90b633e71') in 0.012857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.307684 seconds.
+  path: Assets/Prefabs/Ghost_Clyde.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Clyde.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd036469441e099d11a878e5916236928') in 0.020584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.151936 seconds.
+  path: Assets/Prefabs/Ghost_Clyde.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Clyde.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389322464a16f9b483b3c7fbe8f9e7a2') in 0.756188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.788542 seconds.
+  path: Assets/Prefabs/Ghost_Clyde.prefab
+  artifactKey: Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ghost_Clyde.prefab using Guid(87bb3c97adf781f4ba16544e4d344036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f734efbb77036c7b28c1340f0eb199') in 0.020318 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003669 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1033ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (816ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.8 KB). Loaded Objects now: 4515.
+Memory consumption went from 156.7 MB to 156.5 MB.
+Total: 4.130000 ms (FindLiveObjects: 0.536900 ms CreateObjectMapping: 0.164500 ms MarkObjects: 3.251900 ms  DeleteObjects: 0.175700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

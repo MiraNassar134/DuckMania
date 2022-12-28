@@ -178,8 +178,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 596745738305405466, guid: 87bb3c97adf781f4ba16544e4d344036, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2091314379}
+    - target: {fileID: 596745738305405466, guid: 87bb3c97adf781f4ba16544e4d344036, type: 3}
+      propertyPath: initialBehaviour
+      value: 
+      objectReference: {fileID: 1186313891}
+    - target: {fileID: 2130134697239562819, guid: 87bb3c97adf781f4ba16544e4d344036, type: 3}
+      propertyPath: duration
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87bb3c97adf781f4ba16544e4d344036, type: 3}
+--- !u!114 &182991892 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 596745738305405466, guid: 87bb3c97adf781f4ba16544e4d344036, type: 3}
+  m_PrefabInstance: {fileID: 182991891}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf8831ba2059964b8539463b987ca01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &487827516
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +341,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2411544310460586632, guid: 3196c27731b294744af65e6e73fc2ef5, type: 3}
+      propertyPath: duration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796628944975876817, guid: 3196c27731b294744af65e6e73fc2ef5, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2091314379}
+    - target: {fileID: 3796628944975876817, guid: 3196c27731b294744af65e6e73fc2ef5, type: 3}
+      propertyPath: initialBehaviour
+      value: 
+      objectReference: {fileID: 1186313891}
     - target: {fileID: 3796628944975876827, guid: 3196c27731b294744af65e6e73fc2ef5, type: 3}
       propertyPath: m_Name
       value: Ghost_Pinky
@@ -368,6 +403,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3196c27731b294744af65e6e73fc2ef5, type: 3}
+--- !u!114 &741831149 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3796628944975876817, guid: 3196c27731b294744af65e6e73fc2ef5, type: 3}
+  m_PrefabInstance: {fileID: 741831148}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf8831ba2059964b8539463b987ca01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &869434186
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,7 +458,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11b31cf95b8069141829b3ef1af3072e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghosts: []
+  ghosts:
+  - {fileID: 956734735}
+  - {fileID: 1186313890}
+  - {fileID: 741831149}
+  - {fileID: 182991892}
   duck: {fileID: 2091314383}
   pellets: {fileID: 1922311339}
 --- !u!1001 &956734734
@@ -470,8 +520,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost_Blinky
       objectReference: {fileID: 0}
+    - target: {fileID: 7540106193905713853, guid: d8c12230b07d09a49a4883963e0f030b, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2091314379}
+    - target: {fileID: 7540106193905713853, guid: d8c12230b07d09a49a4883963e0f030b, type: 3}
+      propertyPath: initialBehaviour
+      value: 
+      objectReference: {fileID: 956734736}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8c12230b07d09a49a4883963e0f030b, type: 3}
+--- !u!114 &956734735 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7540106193905713853, guid: d8c12230b07d09a49a4883963e0f030b, type: 3}
+  m_PrefabInstance: {fileID: 956734734}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf8831ba2059964b8539463b987ca01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &956734736 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7716239685161270503, guid: d8c12230b07d09a49a4883963e0f030b, type: 3}
+  m_PrefabInstance: {fileID: 956734734}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f93cc480c1765804e97bc153596afc7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1107188241
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,6 +631,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5410994015592382345, guid: d77ffa52225eb6547b3ca6eebce06f6a, type: 3}
+      propertyPath: duration
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6832072018481592272, guid: d77ffa52225eb6547b3ca6eebce06f6a, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2091314379}
+    - target: {fileID: 6832072018481592272, guid: d77ffa52225eb6547b3ca6eebce06f6a, type: 3}
+      propertyPath: initialBehaviour
+      value: 
+      objectReference: {fileID: 1186313891}
     - target: {fileID: 6832072018481592282, guid: d77ffa52225eb6547b3ca6eebce06f6a, type: 3}
       propertyPath: m_Name
       value: Ghost_Inky
@@ -601,6 +693,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d77ffa52225eb6547b3ca6eebce06f6a, type: 3}
+--- !u!114 &1186313890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6832072018481592272, guid: d77ffa52225eb6547b3ca6eebce06f6a, type: 3}
+  m_PrefabInstance: {fileID: 1186313889}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf8831ba2059964b8539463b987ca01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1186313891 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5410994015592382345, guid: d77ffa52225eb6547b3ca6eebce06f6a, type: 3}
+  m_PrefabInstance: {fileID: 1186313889}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18dcf798a7e6fba43974c8dd7bca05d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1321346946
 GameObject:
   m_ObjectHideFlags: 0
@@ -4978,8 +5092,8 @@ Tilemap:
   - first: {x: -14, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 16
-      m_TileSpriteIndex: 16
+      m_TileIndex: 8
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8583,7 +8697,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 1676fda63c040fe40b114c47038d7527, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 919a50f8559a61841b3d5144a9701a88, type: 2}
-  - m_RefCount: 77
+  - m_RefCount: 78
     m_Data: {fileID: 11400000, guid: 1092f6b93b548724cbb634064069d6b4, type: 2}
   - m_RefCount: 40
     m_Data: {fileID: 11400000, guid: 51a8b3640965dab4ab24216cdccac42a, type: 2}
@@ -8599,7 +8713,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 80b45bfa51fe8f64cbed0f85b9b75544, type: 2}
   - m_RefCount: 35
     m_Data: {fileID: 11400000, guid: 5afe55179cfb1a3458abbbe89087963f, type: 2}
-  - m_RefCount: 138
+  - m_RefCount: 137
     m_Data: {fileID: 11400000, guid: f3657df941f39124085fe11b1ca5961f, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 6da7dfdee81096645a1898f5a6c44633, type: 2}
@@ -8648,7 +8762,7 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: 336cb5f821d09e94ca211f1a42e47428, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: b1372eb48ab258e4d9cc78b4b8ae51e9, type: 3}
-  - m_RefCount: 77
+  - m_RefCount: 78
     m_Data: {fileID: 21300000, guid: 8d3e7acfbe56ae24d8bf1c6d9b99af6d, type: 3}
   - m_RefCount: 40
     m_Data: {fileID: 21300000, guid: e52ee8a5840dcaf4499f536c1580873c, type: 3}
@@ -8664,7 +8778,7 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: 4a3f1f82d57cce44b938b9061baccc56, type: 3}
   - m_RefCount: 35
     m_Data: {fileID: 21300000, guid: 390315a1a73bd8842aa4f2e05efe647a, type: 3}
-  - m_RefCount: 138
+  - m_RefCount: 137
     m_Data: {fileID: 21300000, guid: 5aab2461aed5bc9449fdde9974a8d998, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 6b830f44b1eccbe4da6496d4fe5082f7, type: 3}
