@@ -4,9 +4,13 @@ using UnityEngine;
 public class Duck : MonoBehaviour
 {
     public Movement movement { get; private set; }
+    public SpriteRenderer spriteRenderer { get; private set; }
+    public new Collider2D collider { get; private set; }
 
     private void Awake()
     {
+        this.spriteRenderer = GetComponent<SpriteRenderer>();
+        this.collider = GetComponent<Collider2D>();
         this.movement = GetComponent<Movement>();
     }
 
@@ -36,7 +40,11 @@ public class Duck : MonoBehaviour
 
     public void ResetState()
     {
-        this.gameObject.SetActive(true);
+
+        this.enabled = true;
+        this.spriteRenderer.enabled = true;
+        this.collider.enabled = true;
         this.movement.ResetState();
+        this.gameObject.SetActive(true);
     }
 }

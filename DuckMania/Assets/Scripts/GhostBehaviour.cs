@@ -21,13 +21,13 @@ public abstract class GhostBehaviour : MonoBehaviour
     {
         this.enabled = true;
 
-        CancelInvoke();
+        CancelInvoke(nameof(Disable));
         Invoke(nameof(Disable), duration);
     }
 
     public virtual void Disable()
     {
         this.enabled = false;
-        CancelInvoke();
+        CancelInvoke(nameof(Disable));
     }
 }

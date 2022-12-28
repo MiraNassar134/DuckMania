@@ -1,11 +1,15 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public Ghost[] ghosts;
     public Duck duck;
-
     public Transform pellets;
+
+    public Text gameOverText;
+    public Text scoreText;
+    public Text livesText;
     public int ghostMultiplier { get; private set; } = 1;
     public int score { get; private set; }
     public int lives { get; private set; }
@@ -32,6 +36,8 @@ public class GameManager : MonoBehaviour
 
     private void NewRound()
     {
+        this.gameOverText.enabled = false;
+
         foreach (Transform pellet in this.pellets)
         {
             pellet.gameObject.SetActive(true);
@@ -54,6 +60,8 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
+        this.gameOverText.enabled = true;
+
         for (int i = 0; i < this.ghosts.Length; i++)
         {
             this.ghosts[i].gameObject.SetActive(false);
@@ -65,11 +73,13 @@ public class GameManager : MonoBehaviour
     private void SetScore(int score)
     {
         this.score = score;
+        this.scoreText.text = score.ToString();
     }
 
     private void SetLives(int lives)
     {
         this.lives = lives;
+        this.livesText.text = lives.ToString();
     }
 
     public void GhostEaten(Ghost ghost)
@@ -110,11 +120,14 @@ public class GameManager : MonoBehaviour
 
     public void PowerPelletEaten(PowerPellet pellet)
     {
-        //TODO: changing ghoast state
+        for (int i = 0; i < this.ghosts.Length; i++)
+        {
+            this.ghosts[i].frightened.Enable(pellet.duration);
+        }
 
         PelletEaten(pellet);
 
-        CancelInvoke();
+        CancelInvoke(nameof(ResetGhostMultiplier));
         Invoke(nameof(ResetGhostMultiplier), pellet.duration);
     }
 
