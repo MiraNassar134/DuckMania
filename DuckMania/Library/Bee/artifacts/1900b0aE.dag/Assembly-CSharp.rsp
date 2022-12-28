@@ -375,6 +375,7 @@
 "Assets/Scripts/Duck.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Ghost.cs"
+"Assets/Scripts/Movement.cs"
 -langversion:9.0
 
 /deterministic
