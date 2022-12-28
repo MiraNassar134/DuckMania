@@ -40,7 +40,6 @@ public class Duck : MonoBehaviour
 
     public void ResetState()
     {
-
         this.enabled = true;
         this.spriteRenderer.enabled = true;
         this.collider.enabled = true;

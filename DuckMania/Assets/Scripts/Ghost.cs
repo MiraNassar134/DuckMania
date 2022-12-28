@@ -38,7 +38,11 @@ public class Ghost : MonoBehaviour
         this.frightened.Disable();
         this.chase.Disable();
         this.scatter.Enable();
-        this.home.Disable();
+
+        if (home != this.initialBehaviour)
+        {
+            home.Disable();
+        }
 
         if (this.initialBehaviour != null)
         {
