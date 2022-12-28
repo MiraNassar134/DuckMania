@@ -376,6 +376,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Ghost.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/Passage.cs"
 -langversion:9.0
 
 /deterministic
