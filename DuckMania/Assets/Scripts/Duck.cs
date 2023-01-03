@@ -34,7 +34,16 @@ public class Duck : MonoBehaviour
         }
 
         float angle = Mathf.Atan2(this.movement.direction.y, this.movement.direction.x);
-        this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
+        if (Mathf.Abs(this.movement.direction.y) > Mathf.Abs(this.movement.direction.x))
+        {
+            // Rotate around the Z-axis if the movement is vertical
+            this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
+        }
+        else
+        {
+            // Rotate around the Y-axis if the movement is horizontal
+            this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.up);
+        }
     }
 
 

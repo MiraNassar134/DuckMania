@@ -1,0 +1,799 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/Desktop/Mazen/Education/Mazen Mostafa - College/Repos/DuckMania/DuckMania
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+63122
+Successfully changed project path to: E:/Desktop/Mazen/Education/Mazen Mostafa - College/Repos/DuckMania/DuckMania
+E:/Desktop/Mazen/Education/Mazen Mostafa - College/Repos/DuckMania/DuckMania
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19032] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 2403435262 [EditorId] 2403435262 [Version] 1048832 [Id] WindowsEditor(7,MazenGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19032] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 2403435262 [EditorId] 2403435262 [Version] 1048832 [Id] WindowsEditor(7,MazenGamingPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 91.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Desktop/Mazen/Education/Mazen Mostafa - College/Repos/DuckMania/DuckMania/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004925 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 108.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (601ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (450ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003812 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 91.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (437ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.1 KB). Loaded Objects now: 4512.
+Memory consumption went from 152.4 MB to 152.2 MB.
+Total: 3.195000 ms (FindLiveObjects: 0.359900 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.573700 ms  DeleteObjects: 0.143000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56116.105067 seconds.
+  path: Assets/Prefabs/Crocodile_Base.prefab
+  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c972beeb4dd37c38c05ec2cf44c796') in 0.106691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.156683 seconds.
+  path: Assets/Prefabs/Crocodile_Base.prefab
+  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7bb3eb06d633fd387b38c91e6379f3') in 0.045485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.636292 seconds.
+  path: Assets/Prefabs/Crocodile_Base.prefab
+  artifactKey: Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Base.prefab using Guid(8617697f371ffd4408f0ac2cff544b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe93fd77e56a95121fc4727bfb94b51') in 0.011548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Crocodile_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03726913c588add5eaab6958d9127deb') in 0.014933 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003518 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1474ms)
+		BeginReloadAssembly (443ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4055 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.2 KB). Loaded Objects now: 4523.
+Memory consumption went from 156.8 MB to 156.6 MB.
+Total: 4.427200 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.189200 ms MarkObjects: 3.667200 ms  DeleteObjects: 0.161200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.473155 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29efbd849d56274be9dc05bc7642d347') in 0.052038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.718355 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1954d5407dbd7859896071fbc6794fe') in 0.017111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.412700 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abe64bf8f2e3e6269058b279a20dd5a') in 0.015418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.148457 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a721f54aae4c4f48b0121191b3a04d') in 0.763708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.606330 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee30b7e47cbd931d65175625fe0175c') in 0.019962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.636783 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40fc6a516fd3f969c0d641570cc3e86') in 0.021181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.984862 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af283d5a164b76ccdd0b98c9b6a3d4e9') in 0.016252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.223335 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917d3accddd137ed779873e3b6686203') in 0.019143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.997777 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16330409e1d78b200973c92a9541069f') in 0.010652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.097783 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0978d59419bf560ee1de39b78289a6') in 0.018494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.493335 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1d45c0f0944b39a4d82cc4a336a218') in 0.017562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.137907 seconds.
+  path: Assets/Prefabs/Crocodile_Inky.prefab
+  artifactKey: Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Inky.prefab using Guid(d77ffa52225eb6547b3ca6eebce06f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53317adca3dc1e17d40e588e551e25f') in 0.020589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.111325 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0118ed9951211e8998341800070fd36f') in 0.017570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.376483 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ad768c7fc84b50fb93358b8d8ec0fe') in 0.018957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.162466 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08de6fc6d3d23aec99bd1bffd744ed18') in 0.017790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.189890 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae0a444db854ac9b3efa6c82f08277c') in 0.020932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.798736 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084b6802430c706388533913cd983c9a') in 0.021950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.393695 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4439c118425ad8f8211f10d65a8ac7') in 0.011113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.206355 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be87a95fce0eb93387417d72f5731c69') in 0.011699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.987637 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6061d6b08c3fa5d52d871fbac671185') in 0.011568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.304555 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de78a4024ed29af74b6beb632aa77d1') in 0.014828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.827029 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e513cf1fced3cee5d6b586248f4b038d') in 0.026398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.704996 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3126cece4a50b4edb95423f55ec14996') in 0.011380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.268377 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c403e9a9ed75f939131c305cffee7f09') in 0.016555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.010699 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb87b5faeb8d37d2278686977f24cfd0') in 0.016408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.694142 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205cb3396cbc1d136123f4aefd9cb22e') in 0.019853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.633118 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bee28583acee1a8a5a5bceabe13bbe') in 0.022613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.184105 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8169639e6807a7fad2d023bb4adbf6') in 0.022286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.388087 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0bcf430b4462f1f3e6248dcd1ced0b') in 0.017757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.169643 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a016c3cd99471c80358b405c28f8575e') in 0.010689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.643560 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438946471f79bf974545abebea494919') in 0.016198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.800908 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce41c8c8059f0f61b9635dfdfb13d48') in 0.014190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.781696 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8324d83c612902d344e634692c95a52d') in 0.021889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.800521 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d156b894f267759bcf9a742724e190') in 0.017136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.936696 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cac7e9d29b516b935acf230d7579bc') in 0.015924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.723288 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0868c66c006b8d9df1a50cfc9fa3cb20') in 0.018288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.977791 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66609455ce0c5c309e23993c2ddff0b4') in 0.012729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.968832 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd616624d4644c27f5c7fa58268cfd273') in 0.021998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.383263 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fde8e48512723c19f54868702e7d1e') in 0.010202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.212611 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d3966c3555f9adcd118ce633a49c3d') in 0.011593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.628236 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3781970709f9ab877012b7064b99b817') in 0.016484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.205688 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f34b4daad67e19c69e2cfa5d627201') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.795832 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d2b5aedf796f387983fa99fc637e9d') in 0.009904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.444934 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf4fafba035f5df71df777c95cc7b09') in 0.014253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586989 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704f4a45c76817ee7015f3bba1969480') in 0.018499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.005233 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0e333869c5739d139be10f00af4ac6') in 0.017346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.701961 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9230f0afd2e89cd88e24adf89aad6d') in 0.017618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.913654 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5015f150012e88b2e2d1b4b82a62082') in 0.018809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.225020 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d72724a346477259d3a95b214d0f96') in 0.017521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.783214 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c413470033e25a718180aadb9a0aab2') in 0.016171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.607653 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb03eac52418af12601e231dbd18ed3') in 0.010530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.013762 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c273f449971cdbb8fe2fe2489eea1832') in 0.012216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.778090 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1203b3f0e96bb56bcbded1d1df8488b') in 0.018208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.988070 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fafc6a0cb5d76ca7af51792ca9516b5') in 0.019363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.584624 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a755006efef94733709a39d4caf4a926') in 0.017934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.994437 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d65cf5751e576527181a96bfcf3636d') in 0.012712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.148587 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241ce6520e8e86e08c46f6a614023484') in 0.015333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.378653 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef8c3eb861f2ea870058b2b2fcaa5c5') in 0.067535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.539833 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947fa57ca1e71ae1ead209af26ba1d81') in 0.017723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.516899 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8043eb69174fa54d16f3f274fb92235') in 0.061747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.849629 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3dca53ac72c1cc0e2f676f1f00fea6') in 0.028096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.344359 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc26d8b7d6d87490d40cd4a23d9e1823') in 2.281989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.820395 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82276a56698dc86089f8c1e6c1a0f37') in 0.013376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.500654 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ae666e1b01d6fbcc49e9e265efdfa8') in 0.020776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.789835 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fd68511b3d904b02b9b981e575bcd9') in 0.017725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.985974 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff4675d02348b07b42d3a261a915599') in 0.015252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.796858 seconds.
+  path: Assets/Prefabs/Crocodile_Blinky.prefab
+  artifactKey: Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crocodile_Blinky.prefab using Guid(d8c12230b07d09a49a4883963e0f030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ada3c983c36c1ba929e9487e75e2dfe') in 0.013692 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4055 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.3 KB). Loaded Objects now: 4526.
+Memory consumption went from 157.0 MB to 156.8 MB.
+Total: 3.921600 ms (FindLiveObjects: 0.446600 ms CreateObjectMapping: 0.142000 ms MarkObjects: 3.176700 ms  DeleteObjects: 0.155300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.058115 seconds.
+  path: Assets/Sprites/Crocodile_Eyes_Down.png
+  artifactKey: Guid(b97167c35748db84fb4d32f4f242922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crocodile_Eyes_Down.png using Guid(b97167c35748db84fb4d32f4f242922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0709dc46de35b4223b469ce7420bbb1a') in 0.056005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.564101 seconds.
+  path: Assets/Sprites/Crocodile_Eyes_Left.png
+  artifactKey: Guid(d65aa956b7569874fab274083826a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crocodile_Eyes_Left.png using Guid(d65aa956b7569874fab274083826a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b4becd88f4da237aea85689b40d0a5') in 0.010384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.977333 seconds.
+  path: Assets/Sprites/Crocodile_Eyes_Right.png
+  artifactKey: Guid(07ddb51374d9f19458dad756bbbcd880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crocodile_Eyes_Right.png using Guid(07ddb51374d9f19458dad756bbbcd880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b8d3f389ae81bd4e82c6f15eaadea3') in 0.018419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.007531 seconds.
+  path: Assets/Sprites/Crocodile_Eyes_Up.png
+  artifactKey: Guid(7391304e6dcdc594484288107bfd217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crocodile_Eyes_Up.png using Guid(7391304e6dcdc594484288107bfd217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8191347de2669d15217c0bedc0ea1344') in 0.024276 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003363 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Desktop\Mazen\Education\Mazen Mostafa - College\Repos\DuckMania\DuckMania\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4055 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (195.2 KB). Loaded Objects now: 4532.
+Memory consumption went from 157.0 MB to 156.8 MB.
+Total: 3.492700 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.231900 ms MarkObjects: 2.762200 ms  DeleteObjects: 0.172000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

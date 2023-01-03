@@ -3,14 +3,14 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public Ghost[] ghosts;
+    public Crocodile[] crocodiles;
     public Duck duck;
     public Transform pellets;
 
     public Text gameOverText;
     public Text scoreText;
     public Text livesText;
-    public int ghostMultiplier { get; private set; } = 1;
+    public int crocodileMultiplier { get; private set; } = 1;
     public int score { get; private set; }
     public int lives { get; private set; }
 
@@ -48,11 +48,11 @@ public class GameManager : MonoBehaviour
 
     private void ResetState()
     {
-        ResetGhostMultiplier();
+        ResetCrocodileMultiplier();
 
-        for (int i = 0; i < this.ghosts.Length; i++)
+        for (int i = 0; i < this.crocodiles.Length; i++)
         {
-            this.ghosts[i].ResetState();
+            this.crocodiles[i].ResetState();
         }
 
         this.duck.ResetState();
@@ -62,9 +62,9 @@ public class GameManager : MonoBehaviour
     {
         this.gameOverText.enabled = true;
 
-        for (int i = 0; i < this.ghosts.Length; i++)
+        for (int i = 0; i < this.crocodiles.Length; i++)
         {
-            this.ghosts[i].gameObject.SetActive(false);
+            this.crocodiles[i].gameObject.SetActive(false);
         }
 
         this.duck.gameObject.SetActive(false);
@@ -82,11 +82,11 @@ public class GameManager : MonoBehaviour
         this.livesText.text = "x" + lives.ToString();
     }
 
-    public void GhostEaten(Ghost ghost)
+    public void CrocodileEaten(Crocodile crocodile)
     {
-        int points = ghost.points * this.ghostMultiplier;
+        int points = crocodile.points * this.crocodileMultiplier;
         SetScore(this.score + points);
-        this.ghostMultiplier++;
+        this.crocodileMultiplier++;
     }
 
     public void DuckEaten()
@@ -120,15 +120,15 @@ public class GameManager : MonoBehaviour
 
     public void PowerPelletEaten(PowerPellet pellet)
     {
-        for (int i = 0; i < this.ghosts.Length; i++)
+        for (int i = 0; i < this.crocodiles.Length; i++)
         {
-            this.ghosts[i].frightened.Enable(pellet.duration);
+            this.crocodiles[i].frightened.Enable(pellet.duration);
         }
 
         PelletEaten(pellet);
 
-        CancelInvoke(nameof(ResetGhostMultiplier));
-        Invoke(nameof(ResetGhostMultiplier), pellet.duration);
+        CancelInvoke(nameof(ResetCrocodileMultiplier));
+        Invoke(nameof(ResetCrocodileMultiplier), pellet.duration);
     }
 
     private bool HasRemainingPellets()
@@ -144,9 +144,9 @@ public class GameManager : MonoBehaviour
         return false;
     }
 
-    private void ResetGhostMultiplier()
+    private void ResetCrocodileMultiplier()
     {
-        this.ghostMultiplier = 1;
+        this.crocodileMultiplier = 1;
     }
 
 }
