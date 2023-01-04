@@ -1,15 +1,3 @@
-{
-    "ErrorExceptions": [
-        {
-            "ValidationTest": "API Validation",
-            "ExceptionMessage": "New assembly \"Unity.PlasticSCM.EditorTests\" may only be added in a new minor or major version.",
-            "PackageVersion": "1.17.7"
-        },
-        {
-            "ValidationTest": "API Validation",
-            "ExceptionMessage": "Additions require a new minor or major version.",
-            "PackageVersion": "1.17.7"
-        }
-    ],
-    "WarningExceptions": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e814f8e4f9e6881092ea79b9683f336470265cc6700ecc3f18a9697ac5d0175
+size 494

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: bdcd7498424525e498c77460094ea199
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - PausePanel: {fileID: 3796628944975876827, guid: 3196c27731b294744af65e6e73fc2ef5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
