@@ -34,8 +34,13 @@ public class pausebuttons : MonoBehaviour
 
     public void GotoMainMenu(){
         Debug.Log("going to main menu!");
-
         Time.timeScale=0f;
+        PauseMenuScript.isPaused=true;
+        SceneManager.UnloadSceneAsync("pauseScene");
+        // SceneManager.UnloadSceneAsync("DuckMania");
+        SceneManager.LoadScene("StartScreen", LoadSceneMode.Additive);
+        
+        
         // SceneManager.LoadScene("pauseScene", LoadSceneMode.Additive);
     }
     public void ExitGame(){

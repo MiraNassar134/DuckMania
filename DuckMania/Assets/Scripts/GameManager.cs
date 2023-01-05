@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -16,7 +18,10 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        SceneManager.UnloadSceneAsync("StartScreen");
+        
         NewGame();
+        
     }
 
     private void Update()

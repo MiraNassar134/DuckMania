@@ -389,6 +389,7 @@
 "Assets/Scripts/PauseMenuScript.cs"
 "Assets/Scripts/Pellet.cs"
 "Assets/Scripts/PowerPellet.cs"
+"Assets/Scripts/StartMenu.cs"
 -langversion:9.0
 
 /deterministic

@@ -320,6 +320,7 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/escapefunctionality.cs"
+"Assets/pausebuttons.cs"
 "Assets/Scripts/AnimatedSprite.cs"
 "Assets/Scripts/Crocodile.cs"
 "Assets/Scripts/CrocodileBehaviour.cs"
@@ -336,6 +337,7 @@
 "Assets/Scripts/PauseMenuScript.cs"
 "Assets/Scripts/Pellet.cs"
 "Assets/Scripts/PowerPellet.cs"
+"Assets/Scripts/StartMenu.cs"
 -langversion:9.0
 
 /deterministic
