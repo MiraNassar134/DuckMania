@@ -16,33 +16,36 @@ public class Duck : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        if (!PauseMenuScript.isPaused)
         {
-            this.movement.SetDirection(Vector2.up);
-        }
-        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            this.movement.SetDirection(Vector2.right);
-        }
-        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            this.movement.SetDirection(Vector2.down);
-        }
-        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            this.movement.SetDirection(Vector2.left);
-        }
+            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                this.movement.SetDirection(Vector2.up);
+            }
+            else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                this.movement.SetDirection(Vector2.right);
+            }
+            else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                this.movement.SetDirection(Vector2.down);
+            }
+            else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                this.movement.SetDirection(Vector2.left);
+            }
 
-        float angle = Mathf.Atan2(this.movement.direction.y, this.movement.direction.x);
-        if (Mathf.Abs(this.movement.direction.y) > Mathf.Abs(this.movement.direction.x))
-        {
-            // Rotate around the Z-axis if the movement is vertical
-            this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
-        }
-        else
-        {
-            // Rotate around the Y-axis if the movement is horizontal
-            this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.up);
+            float angle = Mathf.Atan2(this.movement.direction.y, this.movement.direction.x);
+            if (Mathf.Abs(this.movement.direction.y) > Mathf.Abs(this.movement.direction.x))
+            {
+                // Rotate around the Z-axis if the movement is vertical
+                this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.forward);
+            }
+            else
+            {
+                // Rotate around the Y-axis if the movement is horizontal
+                this.transform.rotation = Quaternion.AngleAxis(angle * Mathf.Rad2Deg, Vector3.up);
+            }
         }
     }
 

@@ -12,23 +12,31 @@ public class GameManager : MonoBehaviour
     public Text gameOverText;
     public Text scoreText;
     public Text livesText;
+
+    public Text roundText;
+
     public int crocodileMultiplier { get; private set; } = 1;
     public int score { get; private set; }
     public int lives { get; private set; }
 
+    public int round { get; private set; }
+
     private void Start()
     {
         SceneManager.UnloadSceneAsync("StartScreen");
-        
+
         NewGame();
-        
+
     }
 
     private void Update()
     {
-        if (this.lives <= 0 && Input.anyKeyDown)
+        if (!PauseMenuScript.isPaused)
         {
-            NewGame();
+            if (this.lives <= 0 && Input.anyKeyDown && !Input.GetKeyDown(KeyCode.Escape))
+            {
+                NewGame();
+            }
         }
     }
 
@@ -36,11 +44,13 @@ public class GameManager : MonoBehaviour
     {
         SetScore(0);
         SetLives(3);
+        SetRound(0);
         NewRound();
     }
 
     private void NewRound()
     {
+        SetRound(round + 1);
         this.gameOverText.enabled = false;
 
         foreach (Transform pellet in this.pellets)
@@ -79,6 +89,12 @@ public class GameManager : MonoBehaviour
     {
         this.score = score;
         this.scoreText.text = score.ToString().PadLeft(2, '0');
+    }
+
+    private void SetRound(int round)
+    {
+        this.round = round;
+        this.roundText.text = round.ToString();
     }
 
     private void SetLives(int lives)

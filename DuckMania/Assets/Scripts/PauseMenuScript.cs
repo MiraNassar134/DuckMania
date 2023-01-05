@@ -7,60 +7,53 @@ using UnityEngine.SceneManagement;
 public class PauseMenuScript : MonoBehaviour
 {
 
-    public static bool isPaused=false;
-    // public GameObject  PausePanel;
+    public static bool isPaused = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        // PausePanel= GameObject.Find("Canvas").GetComponent<PausePanel>();
-        // PausePanel.SetActive(false);
         Debug.Log("started");
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Debug.Log("updating");
-    // Console.WriteLine("updating");
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-        if(isPaused){
-            ResumeGame();
-            
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
 
-        }
-        else{
-            PauseGame();
-        }
-        }
-        
     }
-    public void PauseGame(){
+    public void PauseGame()
+    {
         Debug.Log("Pausing");
         // PausePanel.SetActive(true);
         SceneManager.LoadScene("pauseScene", LoadSceneMode.Additive);
-        Time.timeScale=0f;
-        isPaused=true;
+        Time.timeScale = 0f;
+        isPaused = true;
 
     }
-    public void ResumeGame(){
+    public void ResumeGame()
+    {
         Debug.Log("Resuming");
         //PausePanel.SetActive(false);
-       
+
         SceneManager.UnloadSceneAsync("pauseScene");
-        Time.timeScale=1f;
-        isPaused=false;
-        
+        Time.timeScale = 1f;
+        isPaused = false;
+
 
     }
-    //todo 
-    // create main menu
 
-    // public void GotoMainMenu(){
-    //     Time.timeScale=1f;
-    //     SceneManager.loadScene("MainMenu")
-    // }
-    public void ExitGame(){
+    public void ExitGame()
+    {
         Application.Quit();
     }
 }
