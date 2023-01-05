@@ -48,7 +48,7 @@ public class PauseMenuScript : MonoBehaviour
         //PausePanel.SetActive(false);
        
         SceneManager.UnloadSceneAsync("pauseScene");
-         Time.timeScale=1f;
+        Time.timeScale=1f;
         isPaused=false;
         
 
