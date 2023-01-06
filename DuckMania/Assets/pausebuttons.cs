@@ -26,20 +26,29 @@ public class pausebuttons : MonoBehaviour
 
         Time.timeScale = 1f;
         PauseMenuScript.isPaused = false;
-        SceneManager.UnloadSceneAsync("pauseScene");
 
-
+        if (SceneManager.GetSceneByName("pauseScene").IsValid())
+        {
+            SceneManager.UnloadSceneAsync("pauseScene");
+        }
     }
-    //todo 
-    // create main menu
 
+    // create main menu
     public void GotoMainMenu()
     {
         Debug.Log("going to main menu!");
         Time.timeScale = 0f;
         PauseMenuScript.isPaused = true;
-        SceneManager.UnloadSceneAsync("pauseScene");
-        SceneManager.UnloadSceneAsync("DuckMania");
+
+        if (SceneManager.GetSceneByName("pauseScene").IsValid())
+        {
+            SceneManager.UnloadSceneAsync("pauseScene");
+        }
+
+        if (SceneManager.GetSceneByName("DuckMania").IsValid())
+        {
+            SceneManager.UnloadSceneAsync("DuckMania");
+        }
 
         // Get a list of all game objects in the scene
         GameObject[] objects = UnityEngine.Object.FindObjectsOfType<GameObject>();

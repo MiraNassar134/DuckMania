@@ -12,13 +12,22 @@ public class StartMenu : MonoBehaviour
 
         if (gameloaded)
         {
-            SceneManager.UnloadSceneAsync("DuckMania");
-            SceneManager.UnloadSceneAsync("pauseScene");
+
+            if (SceneManager.GetSceneByName("pauseScene").IsValid())
+            {
+                SceneManager.UnloadSceneAsync("pauseScene");
+            }
+
+            if (SceneManager.GetSceneByName("DuckMania").IsValid())
+            {
+                SceneManager.UnloadSceneAsync("DuckMania");
+            }
+
             SceneManager.LoadScene("StartScreen");
             gameloaded = false;
         }
-        PauseMenuScript.isPaused = true;
 
+        PauseMenuScript.isPaused = true;
     }
 
     // Update is called once per frame
@@ -29,16 +38,12 @@ public class StartMenu : MonoBehaviour
     public void StartGame()
     {
         Debug.Log("Start");
-        //PausePanel.SetActive(false);
-
 
         Time.timeScale = 1f;
         PauseMenuScript.isPaused = false;
         gameloaded = true;
-        // SceneManager.UnloadSceneAsync("StartScreen");
+
         SceneManager.LoadScene("DuckMania", LoadSceneMode.Additive);
-
-
     }
     public void ExitGame()
     {

@@ -57,7 +57,6 @@ public class CrocodileFrightened : CrocodileBehaviour
 
     private void OnEnable()
     {
-        Debug.Log("Hello World");
         green.GetComponent<AnimatedSprite>().Restart();
         this.crocodile.movement.speedMultiplier = 0.5f;
         this.eaten = false;

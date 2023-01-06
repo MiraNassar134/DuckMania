@@ -23,10 +23,12 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        SceneManager.UnloadSceneAsync("StartScreen");
+        if (SceneManager.GetSceneByName("StartScreen").IsValid())
+        {
+            SceneManager.UnloadSceneAsync("StartScreen");
+        }
 
         NewGame();
-
     }
 
     private void Update()

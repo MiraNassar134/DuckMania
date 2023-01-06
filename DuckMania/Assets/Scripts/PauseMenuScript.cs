@@ -43,9 +43,12 @@ public class PauseMenuScript : MonoBehaviour
     public void ResumeGame()
     {
         Debug.Log("Resuming");
-        //PausePanel.SetActive(false);
 
-        SceneManager.UnloadSceneAsync("pauseScene");
+        if (SceneManager.GetSceneByName("pauseScene").IsValid())
+        {
+            SceneManager.UnloadSceneAsync("pauseScene");
+        }
+
         Time.timeScale = 1f;
         isPaused = false;
 
