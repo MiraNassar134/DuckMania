@@ -1,11 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
 public class PauseMenuScript : MonoBehaviour
 {
+
+    [DllImport("__Internal")]
+    private static extern void closeWindow();
 
     public static bool isPaused = false;
 
@@ -58,6 +60,7 @@ public class PauseMenuScript : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        closeWindow();
     }
 }
 

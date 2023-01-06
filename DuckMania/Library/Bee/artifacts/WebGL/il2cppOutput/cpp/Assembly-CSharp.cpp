@@ -1578,6 +1578,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m2841705C02C450E42A44B5EEE2A6A2C4261FA3AF (String_t* ___0_sceneName, int32_t ___1_mode, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Application::Quit()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
+// System.Void pausebuttons::closeWindow()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void pausebuttons_closeWindow_mBFA5BC80B45E1C6BF2D7839B0E55AC01AC6071DF (const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.SpriteRenderer>()
 inline SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -1953,14 +1955,19 @@ inline void List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline (List_1_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenuScript_ResumeGame_m4E925B58DEF1FB6E4A44F353390AEE100172CADB (PauseMenuScript_t4688105FAA7A33259E250DBE5BA76AD31885179B* __this, const RuntimeMethod* method) ;
 // System.Void PauseMenuScript::PauseGame()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenuScript_PauseGame_mEACC3C78101745F357549EF89DBAC7FAD95CBEC7 (PauseMenuScript_t4688105FAA7A33259E250DBE5BA76AD31885179B* __this, const RuntimeMethod* method) ;
+// System.Void PauseMenuScript::closeWindow()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenuScript_closeWindow_mB232E64EA96CEEF4A74C5585BC1B66D27EDBD2B3 (const RuntimeMethod* method) ;
 // System.Void GameManager::PowerPelletEaten(PowerPellet)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_PowerPelletEaten_mE00726D2A60B40B37A76B79C47F0F0011CBCD3FB (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, PowerPellet_tF99A28F214C161243AFCA8090E626B73CC3D43C9* ___0_pellet, const RuntimeMethod* method) ;
 // System.Void Pellet::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pellet__ctor_m2166B8AA43AD5BE36B7AA9153461A10CBEE2A087 (Pellet_t0DD0A8D50B793E3EE6357F6E46C303EAB6E67964* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
+// System.Void StartMenu::closeWindow()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenu_closeWindow_m5F91DCDB85DA2FFBC0CF8B4080C719CA6851AEE1 (const RuntimeMethod* method) ;
 // System.Single UnityEngine.Mathf::Clamp01(System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C void DEFAULT_CALL closeWindow();
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -2019,21 +2026,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void escapefunctionality__ctor_mE359C882B58B9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void pausebuttons::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void pausebuttons_Start_m6E93DA19104E55C8B238033FDDF83690012ECA59 (pausebuttons_t6BC82F432F49E9E0ED7A6F38AE1B2CAD6A2D8EF9* __this, const RuntimeMethod* method) 
+// System.Void pausebuttons::closeWindow()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void pausebuttons_closeWindow_mBFA5BC80B45E1C6BF2D7839B0E55AC01AC6071DF (const RuntimeMethod* method) 
 {
-	{
-		// }
-		return;
-	}
-}
-// System.Void pausebuttons::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void pausebuttons_Update_m197D9A21525BAE58302ED0B5A863B0DE9DD7D8CD (pausebuttons_t6BC82F432F49E9E0ED7A6F38AE1B2CAD6A2D8EF9* __this, const RuntimeMethod* method) 
-{
-	{
-		// }
-		return;
-	}
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(closeWindow)();
+
 }
 // System.Void pausebuttons::ResumeGame()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void pausebuttons_ResumeGame_m1DE839BEEFED7441ECFC3BF20B97C195388AD4CF (pausebuttons_t6BC82F432F49E9E0ED7A6F38AE1B2CAD6A2D8EF9* __this, const RuntimeMethod* method) 
@@ -2202,6 +2202,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void pausebuttons_ExitGame_mAD9044E1DF04C2DB0
 	{
 		// Application.Quit();
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		// closeWindow();
+		pausebuttons_closeWindow_mBFA5BC80B45E1C6BF2D7839B0E55AC01AC6071DF(NULL);
 		// }
 		return;
 	}
@@ -5898,6 +5900,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Passage__ctor_mA20A37B04D60D2A0741EC7685
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void PauseMenuScript::closeWindow()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenuScript_closeWindow_mB232E64EA96CEEF4A74C5585BC1B66D27EDBD2B3 (const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(closeWindow)();
+
+}
 // System.Void PauseMenuScript::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenuScript_Start_m23801BF8BF739B3044B04656C47DE83FB3D9F04E (PauseMenuScript_t4688105FAA7A33259E250DBE5BA76AD31885179B* __this, const RuntimeMethod* method) 
 {
@@ -6042,6 +6053,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenuScript_ExitGame_mA55B788DB16D79
 	{
 		// Application.Quit();
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		// closeWindow();
+		PauseMenuScript_closeWindow_mB232E64EA96CEEF4A74C5585BC1B66D27EDBD2B3(NULL);
 		// }
 		return;
 	}
@@ -6172,6 +6185,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PowerPellet__ctor_mF8A6E16E311AD81633386
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void StartMenu::closeWindow()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenu_closeWindow_m5F91DCDB85DA2FFBC0CF8B4080C719CA6851AEE1 (const RuntimeMethod* method) 
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(closeWindow)();
+
+}
 // System.Void StartMenu::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenu_Start_m8A322780E07CEF3542258818587A7EFC660BE529 (StartMenu_t75C686A394618522E32AD30C819F308E68E45818* __this, const RuntimeMethod* method) 
 {
@@ -6299,6 +6321,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenu_ExitGame_m6D93429AB2148BDC6A0B
 	{
 		// Application.Quit();
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		// closeWindow();
+		StartMenu_closeWindow_m5F91DCDB85DA2FFBC0CF8B4080C719CA6851AEE1(NULL);
 		// }
 		return;
 	}

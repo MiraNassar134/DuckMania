@@ -1,28 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
 public class pausebuttons : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    [DllImport("__Internal")]
+    private static extern void closeWindow();
 
     public void ResumeGame()
     {
         Debug.Log("Resuming");
-        //PausePanel.SetActive(false);
-
 
         Time.timeScale = 1f;
         PauseMenuScript.isPaused = false;
@@ -65,5 +55,6 @@ public class pausebuttons : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        closeWindow();
     }
 }

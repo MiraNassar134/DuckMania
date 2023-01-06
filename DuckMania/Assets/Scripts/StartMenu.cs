@@ -1,10 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
+
+    [DllImport("__Internal")]
+    private static extern void closeWindow();
+
     // Start is called before the first frame update
     public static bool gameloaded = false;
     void Start()
@@ -48,5 +51,6 @@ public class StartMenu : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        closeWindow();
     }
 }
