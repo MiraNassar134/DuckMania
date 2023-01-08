@@ -57,3 +57,7 @@ crashlytics-build.properties
 
 # Package Cache
 */Library/PackageCache/
+
+# Ignoring Documents
+*.pdf
+*.docx

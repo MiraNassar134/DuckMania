@@ -7,8 +7,6 @@ public class StartMenu : MonoBehaviour
 
     [DllImport("__Internal")]
     private static extern void closeWindow();
-
-    // Start is called before the first frame update
     public static bool gameloaded = false;
     void Start()
     {
@@ -33,11 +31,6 @@ public class StartMenu : MonoBehaviour
         PauseMenuScript.isPaused = true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void StartGame()
     {
         Debug.Log("Start");
