@@ -6,7 +6,7 @@ The duck must navigate through the maze, avoiding the crocodiles and collecting 
 
 As the player progresses through the levels, the challenges will increase and the crocodiles will become more aggressive. With only three lives to work with, the player must be careful to avoid losing all of their lives before reaching the end of the game. Can you outsmart the crocodiles ?
 
-Try it out [here!](https://mazen-ghaleb.github.io/DuckMania/Build/index.html "Project's Git Page Link")
+Try it out [here!](https://miranassar134.github.io/DuckMania/Build/index.html "Project's Git Page Link")
 
 ## Rules
 
@@ -50,7 +50,7 @@ To play the game, the player has multiple options:
    - Download ‘Build’ directory from the repository.
    - The player can also use a tool like "Live Server" for Visual Studio Code to automatically open the "index.html" file in the directory in a web browser.
 
-4. Opening the game on the hosted website on [GitPages](https://mazen-ghaleb.github.io/DuckMania/Build/index.html "Project's Git Page Link"):
+4. Opening the game on the hosted website on [GitPages](https://miranassar134.github.io/DuckMania/Build/index.html "Project's Git Page Link"):
 
    - The player can simply go to the hosted website on GitPages and the game will be loaded and run in the player's web browser.
 
